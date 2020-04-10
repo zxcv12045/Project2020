@@ -3,6 +3,23 @@
 * Update: 2020.04.10
 * Author: zxcv12045
 */
+/*
+[선택자] {
+    [속성] :[속성값];
+    [속성] :[속성값];
+    [속성] :[속성값];
+    [속성] :[속성값];
+}
+
+class
+id 
+tag
+*/
+
+/* header */
+.Main-title {
+    color: lightcoral;
+}
 
 /* logo */
 .logo {
