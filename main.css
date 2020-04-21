@@ -1,6 +1,6 @@
 /*
-* File Name: index.html v0.3.0
-* Update: 2020.04.10
+* File Name: index.html v0.4.0
+* Update: 2020.04.21
 * Author: zxcv12045
 */
 /*
@@ -59,6 +59,13 @@ ul li a {
     text-align: center;
 }
 
+.article-bg2 {
+    height: 550px;
+    padding: 15px;
+    background-color: rgb(106, 175, 104);
+    text-align: center;
+}
+
 /* box model test */
 .box1 {
     display: inline-block;
@@ -90,4 +97,33 @@ ul li a {
     background-color: brown;
     border: 10px solid gray; 
     box-shadow: 10px 10px 5px 5px black;
+}
+
+/* 멀티미디어 연습*/
+.img-size1 {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+}
+
+.img-size2 {
+    width: 250px;
+    height: 100px;
+    margin: 25px;
+}
+
+.b-radius1 {
+    border-radius: 10%;
+}
+
+.b-radius2 {
+    border-radius: 25%;
+}
+
+.b-radius3 {
+    border-radius: 50%;
+}
+
+.b-radius4 {
+    border-radius: 100%;
 }
