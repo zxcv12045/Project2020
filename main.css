@@ -1,6 +1,6 @@
 /*
-* File Name: index.html v0.4.0
-* Update: 2020.04.21
+* File Name: index.html v0.5.0
+* Update: 2020.04.22
 * Author: zxcv12045
 */
 /*
@@ -60,9 +60,23 @@ ul li a {
 }
 
 .article-bg2 {
-    height: 550px;
+    height: 650px;
     padding: 15px;
     background-color: rgb(106, 175, 104);
+    text-align: center;
+}
+
+.article-bg3 {
+    height: 450px;
+    padding: 15px;
+    background-color: rgb(175, 142, 104);
+    text-align: center;
+}
+
+.article-bg4 {
+    height: 500px;
+    padding: 15px;
+    background-color: rgb(240, 147, 124);
     text-align: center;
 }
 
@@ -126,4 +140,5 @@ ul li a {
 
 .b-radius4 {
     border-radius: 100%;
+    box-shadow: 10px 10px 5px 5px black;
 }
