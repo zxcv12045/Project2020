@@ -1,4 +1,7 @@
 # Project2020 - 홍예연
+## 04월 27일 테이블 태그 연습
+>table tag 연습 <br>
+
 ## 04월 22일 멀티미디어 태그 연습2
 >audio tag 연습 <br>
 video tag 연습 <br>
