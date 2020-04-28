@@ -1,6 +1,6 @@
 /*
-* File Name: index.html v0.6.0
-* Update: 2020.04.27
+* File Name: index.html v0.7.0
+* Update: 2020.04.28
 * Author: zxcv12045
 */
 /*
@@ -46,7 +46,8 @@ ul li {
 
 ul li a {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -186,4 +187,43 @@ td {
 
 caption {
     caption-side: bottom;
+}
+
+.grid-container {
+    background-color: rgb(207, 42, 42);
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.item2 {
+    grid-row: 2 / 4;
+}
+
+.item3 {
+    grid-column: 2 / 4;
+}
+
+.item6 {
+    grid-column: 1 / 3;
+}
+
+.item9 {
+    grid-column: 2 / 4;
+}
+
+.item10 {
+    grid-column: 1 / 4;
+}
+
+.grid-item {
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
 }
