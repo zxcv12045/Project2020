@@ -1,6 +1,6 @@
 /*
-* File Name: index.html v0.7.0
-* Update: 2020.04.28
+* File Name: index.html v0.8.0
+* Update: 2020.05.05
 * Author: zxcv12045
 */
 /*
@@ -17,13 +17,77 @@ tag
 */
 
 /* header */
-.Main-title {
-    color: lightcoral;
-}
 
 /* logo */
 .logo {
     color: rgb(159, 185, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* header - full screen background */
+.full-bg {
+    background: url(./images/red-velvet-really-bad-boy-rbb-irene-joy-seulgi-yeri-wendy-s7824.jpg) 
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.table-cell {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header-title {
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffb69f;
+    border: brown;
+    border-style: solid;
+}
+
+.header-sub-title {
+    color: rgb(253, 180, 45);
+    font-size: 20px;
+}
+
+.button {
+    padding: 40px;
+    margin: 0 20px 0 20px;
+}
+
+.button1 {
+    display: inline-block;
+    width:300px;
+    padding: 15px;
+    margin-right: 50px;
+    color: #fff;
+    border: 3px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button2 {
+    display: inline-block;
+    width:300px;
+    padding: 15px;
+    background-color: #ffb69f;
+    color: #fff;
+    border: 3px solid #ffb69f;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
