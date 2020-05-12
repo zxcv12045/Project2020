@@ -1,6 +1,6 @@
 /*
-* File Name: index.html v0.8.0
-* Update: 2020.05.05
+* File Name: index.html v0.9.0
+* Update: 2020.05.12
 * Author: zxcv12045
 */
 /*
@@ -101,11 +101,13 @@ ul {
     padding: 15px 10px 8px;
     background: rgb(49, 49, 49);
     list-style: none;
+    top: 0;
+    position: fixed;
 }
 
 ul li {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 ul li a {
@@ -114,6 +116,26 @@ ul li a {
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.onepage > ul {
+    position: relative;
+    display: none;
+}
+
+.onepage:hover > ul {
+    display: block;
+    width: 180px;
+    height: 290px;
+}
+
+.onepage ul li {
+    padding: 10px 0px;
+    margin-right: 10px;
+}
+
+.onepage {
+    text-align: center;
 }
 
 /* article background */
@@ -290,4 +312,13 @@ caption {
     font-size: 30px;
     padding: 20px;
     text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: rgb(34, 3, 3);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }

@@ -1,6 +1,6 @@
 <!--
-    * File Name: index.html v0.9.0
-    * Update: 2020.05.05
+    * File Name: index.html v0.10.0
+    * Update: 2020.05.12
     * Author: zxcv12045 
 -->
 <!DOCTYPE html>
@@ -24,8 +24,8 @@
             스크립트프로그래밍, UI/UX 설계 실습</p>
           </div>
           <div class="button">
-            <a href="#" class="button1">2020.05.05</a>
-            <a href="#" class="button2">v0.9.0</a>
+            <a href="#" class="button1">2020.05.12</a>
+            <a href="#" class="button2">v0.10.0</a>
           </div>
         </div>
       </div>
@@ -33,12 +33,22 @@
     <nav>
       <ul>
         <li class="logo">홍예연</li>
+        <li class="onepage"><a href="#">One Page</a>
+          <ul>
+            <li><a href="#box">박스모델 연습</a></li>
+            <li><a href="#multi1">멀티미디어 태그 연습</a></li>
+            <li><a href="#multi2">멀티미디어 태그 연습2</a></li>
+            <li><a href="#youtube">유튜브 동영상 삽입 연습</a></li>
+            <li><a href="#table">테이블 연습</a></li>
+            <li><a href="#grid">CSS Grid 연습</a></li>
+          </ul>
+        </li>
         <li><a href="#">메뉴1</a></li>
         <li><a href="#">메뉴2</a></li>
         <li><a href="#">메뉴3</a></li>
       </ul>
     </nav>
-    <article class="article-bg1">
+    <article class="article-bg1" id="box">
       <h1>4월10일 박스모델 연습</h1>
         <section>
           <div class="box1">박스1</div>
@@ -46,7 +56,7 @@
           <div class="box3">박스3</div>
         </section>
     </article>
-    <article class="article-bg2">
+    <article class="article-bg2" id="multi1">
       <h1>4월21일 멀티미디어 태그 연습</h1>
       <h2>img tag 연습</h2>
       <section>
@@ -64,7 +74,7 @@
         <img class="img-size2 b-radius4" src="./images/computer-1209641_640.jpg" alt="컴퓨터 코딩 사진">
       </section>
     </article>
-    <article class="article-bg3">
+    <article class="article-bg3" id="multi2">
       <h1>4월22일 멀티미디어 태그 연습2</h1>
       <h2>audio, video tag 연습</h2>
       <section>
@@ -78,14 +88,14 @@
         </video>
       </section>
     </article>
-    <article class="article-bg4">
+    <article class="article-bg4" id="youtube">
       <h2>유튜브 동영상 삽입 연습</h2>
       <section>
         <iframe width="600px" height="400px" src="https://www.youtube.com/embed/uR8Mrt1IpXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       </section>
     </article>
-    <article class="article-bg5">
+    <article class="article-bg5" id="table">
       <h1>4월27일 테이블 연습</h1>
       <section>
         <table>
@@ -128,7 +138,7 @@
       </section>
     </article>
     <!-- CSS Grid 연습 -->
-    <article class="grid-container">
+    <article class="grid-container" id="grid">
       <div class="grid-item item1">CSS Grid</div>
       <div class="grid-item item2">2</div>
       <div class="grid-item item3">3</div>
@@ -141,6 +151,6 @@
       <div class="grid-item item10">10</div>
     </article>   
     <aside>어사이드 영역</aside>
-    <footer>풋터에 들어갈 내용</footer>
+    <footer>Copyright ⓒ 2020 Hong Ye Yeon</footer>
    </body>
 </html>
