@@ -111,6 +111,7 @@ ul li {
 }
 
 ul li a {
+    display: block;
     color: rgb(255, 255, 255);
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px;
@@ -118,15 +119,22 @@ ul li a {
     text-decoration: none;
 }
 
-.onepage > ul {
+.onepage ul {
     position: relative;
     display: none;
+    z-index: 200;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: auto;
+    width: 200px;
 }
 
-.onepage:hover > ul {
+.onepage:hover ul {
     display: block;
     width: 180px;
     height: 290px;
+    background: rgb(49,49,49);
 }
 
 .onepage ul li {
@@ -140,7 +148,7 @@ ul li a {
 
 /* article background */
 .article-bg1 {
-    height: 300px;
+    height: 400px;
     padding: 15px;
     background-color: rgb(104, 104, 175);
     text-align: center;
