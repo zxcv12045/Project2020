@@ -1,0 +1,40 @@
+<!--
+    * File Name: dom08.html v0.1.0
+    * Update: 2020.05.27
+    * Author: zxcv12045 
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <title>dom08</title>
+    <script>
+        window.onload=function(){         
+            //문서 객체 선택
+            var clock=document.getElementById('clock');
+            //1초마다 함수를 실행
+            setInterval(function() {
+                var now=new Date();
+                clock.innerHTML=now.toString();
+            }, 1000);           
+
+            document.getElementById('button').onclick=function(){
+            this.textContent=this.textContent+'★';
+            } 
+        };
+
+        function buttonClick(){
+                alert('클릭 되었습니다.')
+            }
+
+    </script>
+</head>
+<body>
+    <h1 id="clock"></h1>
+    <button onclick="buttonClick()">버튼 클릭</button>
+    <button id="button">버튼 - </button>
+</body>
+</html>

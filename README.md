@@ -1,9 +1,22 @@
 # Project2020 - 홍예연
-## 05월 12일 bootstrap 연습
->alerts
-button
-collapse
-form
+## 05월 27일 DOM 연습
+>document.querySelector() <br>
+document.getElementById() <br>
+document.querySelectorAll()  <br>
+for문을 이용한 문서 객체의 조작 <br>
+SPA(Single Page Application)<br>
+문서 객체 조작. Placehold.com의 리소스 이용 <br>
+setAttribute(), getAttribute() <br>
+Date() 실시간 표시 <br>
+button에 이벤트 연결
+
+
+
+## 05월 20일 bootstrap 연습
+>alerts <br>
+button <br>
+collapse <br>
+form <br>
 svg
 
 ## 05월 12일 여러가지 연습
