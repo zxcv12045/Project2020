@@ -1,4 +1,11 @@
 # Project2020 - 홍예연
+## 05월 20일 bootstrap 연습
+>alerts <br>
+button <br>
+collapse <br>
+form <br>
+svg
+
 ## 05월 12일 여러가지 연습
 >서브메뉴 연습 <br>
 앵커 연습
