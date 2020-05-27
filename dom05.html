@@ -1,0 +1,37 @@
+<!--
+    * File Name: dom05.html v0.1.0
+    * Update: 2020.05.27
+    * Author: zxcv12045 
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <title>dom05</title>
+    <script>
+        window.onload=function(){  
+            var output='';         
+            for(var i=0; i<256; i++){
+                output+='<div></div>';
+            }
+            document.body.innerHTML=output;
+
+            //문서 객체 선택
+            var divs=document.querySelectorAll('div');
+            for(var i=0; i<divs.length; i++){
+                var div = divs[i];
+                div.style.height='2px';
+                div.style.background='rgb('+i+','+i+','+i+')';
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+</body>
+</html>
