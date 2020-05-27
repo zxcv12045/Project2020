@@ -1,6 +1,6 @@
 /*
-* File Name: index.html v0.9.0
-* Update: 2020.05.12
+* File Name: main.css v0.10.0
+* Update: 2020.05.27
 * Author: zxcv12045
 */
 /*
@@ -111,6 +111,7 @@ ul li {
 }
 
 ul li a {
+    display: block;
     color: rgb(255, 255, 255);
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px;
@@ -118,29 +119,49 @@ ul li a {
     text-decoration: none;
 }
 
-.onepage > ul {
+.onepage ul, .dom ul{
     position: relative;
     display: none;
+    z-index: 200;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: auto;
+    width: 200px;
 }
 
-.onepage:hover > ul {
+.onepage:hover ul{
     display: block;
     width: 180px;
     height: 290px;
+    background: rgb(49,49,49);
 }
 
-.onepage ul li {
+.dom:hover ul{
+    display: block;
+    width: 130px;
+    height: 400px;
+    background: rgb(49,49,49);
+}
+
+.onepage ul li{
     padding: 10px 0px;
     margin-right: 10px;
 }
 
-.onepage {
+.dom ul li{
+    padding: 10px 0px;
+    margin-right:90px;
+    margin-left:20px;
+}
+
+.onepage, .dom {
     text-align: center;
 }
 
 /* article background */
 .article-bg1 {
-    height: 300px;
+    height: 400px;
     padding: 15px;
     background-color: rgb(104, 104, 175);
     text-align: center;
