@@ -1,6 +1,6 @@
 /*
-* File Name: main.css v0.10.0
-* Update: 2020.05.27
+* File Name: main.css v0.11.0
+* Update: 2020.06.03
 * Author: zxcv12045
 */
 /*
@@ -119,7 +119,7 @@ ul li a {
     text-decoration: none;
 }
 
-.onepage ul, .dom ul{
+.onepage ul, .dom ul, .jquery ul{
     position: relative;
     display: none;
     z-index: 200;
@@ -144,6 +144,13 @@ ul li a {
     background: rgb(49,49,49);
 }
 
+.jquery:hover ul{
+    display: block;
+    width: 130px;
+    height: 590px;
+    background: rgb(49,49,49);
+}
+
 .onepage ul li{
     padding: 10px 0px;
     margin-right: 10px;
@@ -155,7 +162,13 @@ ul li a {
     margin-left:20px;
 }
 
-.onepage, .dom {
+.jquery ul li{
+    padding: 10px 0px;
+    margin-right:90px;
+    margin-left:20px;
+}
+
+.onepage, .dom, .jquery {
     text-align: center;
 }
 
