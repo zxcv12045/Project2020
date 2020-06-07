@@ -1,20 +1,31 @@
 # Project2020 - 홍예연
 ## 06월 03일 jQuery 연습
->
+> jQuery 기본문법<br>
+attr( )메소드를 이용한 문서 객체의 속성 조작. 속성값 추출 및 지정<br>
+css( )메소드를 이용한 스타일 조작<br>
+html( ), text( ) 메소드를 이용한 문서 객체 내부 글자 조작<br>
+addClass( ), removeClass( ), toggleClass( ) 메소드를 이용한 클래스의 추가, 제거, 전환<br>
+jQuery의 이벤트 연결<br>
+jQuery의 애니메이션 효과<br>
+jQuery의 문서 객체의 생성과 추가<br>
+jQuery를 이용한 무한 스크롤의 구현<br>
+jQuery plugins활용 : lightbox<br>
+jQuery plugins활용 : masonry<br>
+jQuery plugins활용 : covid-19<br>
 
 ## 05월 27일 DOM 연습
 >자바스크립트 기본문법. <br>
-DOM(Document Object Model)의 개요와 이해.<br>
+DOM(Document Object Model)의 개요와 이해<br>
 document.querySelector( ) 실습<br>
 document.getElementById( ) 실습<br>
-document.querySelectorAll( ) 실습. for문을 이용한 문서 객체의 조작.<br>
-SPA(Single Page Application)의 이해 및 h1 ~ h2 까지의 내용 자동생성.<br>
-SPA로 rgb(0, 0, 0)~rgb(255, 255, 255)의 그라데이션 구현.<br>
-문서 객체 조작. Placehold.com의 리소스 이용.<br>
-setAttribute( ), getAttribute( )를 이용한 속성의 지정과 속성값 추출 방법 실습.<br>
-문서 객체 및 Date( ) 객체를 이용한 시간 표시. 1초에 한번씩 갱신.(실시간 표시)<br>
-button에 이벤트 연결 실습.<br>
-이벤트 리스너 내부에서 this 객체를 이용한 별(★)점수 버튼 만들기.
+document.querySelectorAll( ) 실습, for문을 이용한 문서 객체의 조작<br>
+SPA(Single Page Application)의 이해 및 h1 ~ h2 까지의 내용 자동생성<br>
+SPA로 rgb(0, 0, 0)~rgb(255, 255, 255)의 그라데이션 구현<br>
+문서 객체 조작, Placehold.com의 리소스 이용<br>
+setAttribute( ), getAttribute( )를 이용한 속성의 지정과 속성값 추출 방법 실습<br>
+문서 객체 및 Date( ) 객체를 이용한 시간 표시, 1초에 한번씩 갱신(실시간 표시)<br>
+button에 이벤트 연결 실습<br>
+이벤트 리스너 내부에서 this 객체를 이용한 별(★)점수 버튼 만들기
 
 ## 05월 20일 bootstrap 연습
 >alerts <br>
